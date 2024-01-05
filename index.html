@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="calculator">
+        <div>
+            <h5>CALCULATOR</h5>
+            <input id="display" onclick="display()" class="display" type="text">
+        </div>
+        <div>
+            <input class="btnn" onclick="clickk(7)" type="button" value="7">
+            <input class="btnn" onclick="clickk(8)" type="button" value="8">
+            <input class="btnn" onclick="clickk(9)" type="button" value="9">
+            <input class="btnn" onclick="clearr()" type="button" value="C">
+        <div>
+            <input class="btnn" onclick="clickk(4)" type="button" value="4">
+            <input class="btnn" onclick="clickk(5)" type="button" value="5">
+            <input class="btnn" onclick="clickk(6)" type="button" value="6">
+            <input class="btnn" onclick="clickk('+')" type="button" value="+">
+        </div>
+        <div>
+            <input class="btnn" onclick="clickk(1)" type="button" value="1">
+            <input class="btnn" onclick="clickk(2)" type="button" value="2">
+            <input class="btnn" onclick="clickk(3)" type="button" value="3">
+            <input class="btnn" onclick="clickk('-')" type="button" value="-">
+        </div>
+        <div>
+            <input class="btnn" onclick="clickk(0)" type="button" value="0">
+            <input class="btnn" onclick="clickk('/')" type="button" value="/">
+            <input class="btnn" onclick="clickk('*')" type="button" value="X">
+            <input class="btnn" onclick="equalclick()" type="button" value="=">
+        </div>
+    </div>
+   
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
